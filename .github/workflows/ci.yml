@@ -19,16 +19,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout_repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: setup_nodejs
-        uses: actions/setup-node2@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '18'
       - name: install_dd_ci
         run: npm install -g @datadog/datadog-ci
       - name: push_events
         env:
-          API_KEY: ${{ secrets.apikey }}
+          API_KEY: ${{ secrets.APIKEY }}
         run: |
           export DD_API_KEY="$API_KEY"
           export DD_SITE="datadoghq.com"
