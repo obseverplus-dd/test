@@ -1,0 +1,29 @@
+#
+# DataDog Configuration for your application.
+#
+# This documentation outlines how we are using DataDog and how it can be
+# fine tuned for your application. For more information about this schema visit:
+#     https://docs.datadoghq.com/tracing/service_catalog/service_metadata_structure/
+#
+schema-version: v2.1
+dd-service: bht-lnc-svc-api
+team: bht
+contacts:
+- type: slack
+  contact: slack url
+application: bht-lnc-svc-api
+description: lnc-svc-api description here
+tier: tier3
+links:
+- name: MDE User Guide
+  provider: link
+  type: doc
+  url: https://dhcs-mesmd.atlassian.net/wiki/spaces/DEV/pages/2170257454/MDE+User+Guide+Home+2.0
+- type: repo
+  name: bht-lnc-svc-api
+  provider: Github
+  url: https://github.com/MESMD/bht-lnc-svc-api
+
+tags:
+- tenant:bht
+- app_name:lnc-svc-api
