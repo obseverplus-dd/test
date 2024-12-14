@@ -34,7 +34,7 @@ jobs:
           export DD_SITE="datadoghq.com"
           export deploy_start=`date +%s`
           export DD_BETA_COMMANDS_ENABLED=1
-          datadog-ci dora deployment --env prod --started-at $deploy_start
+          datadog-ci dora deployment --service test --env prod --started-at $deploy_start
   
   
   # # This workflow contains a single job called "build"
