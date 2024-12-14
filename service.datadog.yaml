@@ -22,7 +22,7 @@ links:
 - type: repo
   name: bht-lnc-svc-api
   provider: Github
-  url: https://github.com/MESMD/bht-lnc-svc-api
+  url: https://github.com/obseverplus-dd/test
 
 tags:
 - tenant:bht
