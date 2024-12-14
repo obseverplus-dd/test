@@ -6,12 +6,12 @@
 #     https://docs.datadoghq.com/tracing/service_catalog/service_metadata_structure/
 #
 schema-version: v2.1
-dd-service: bht-lnc-svc-api
+dd-service: test
 team: bht
 contacts:
 - type: slack
   contact: slack url
-application: bht-lnc-svc-api
+application: test
 description: lnc-svc-api description here
 tier: tier3
 links:
@@ -20,10 +20,10 @@ links:
   type: doc
   url: https://dhcs-mesmd.atlassian.net/wiki/spaces/DEV/pages/2170257454/MDE+User+Guide+Home+2.0
 - type: repo
-  name: bht-lnc-svc-api
+  name: test
   provider: Github
   url: https://github.com/obseverplus-dd/test
 
 tags:
 - tenant:bht
-- app_name:lnc-svc-api
+- app_name:test
