@@ -27,3 +27,27 @@ links:
 tags:
 - tenant:bht
 - app_name:test
+
+
+schema-version: v2.1
+dd-service: test2
+team: bht2
+contacts:
+- type: slack
+  contact: slack url
+application: test2
+description: lnc-svc-api description here
+tier: tier3
+links:
+- name: MDE User Guide
+  provider: link
+  type: doc
+  url: https://dhcs-mesmd.atlassian.net/wiki/spaces/DEV/pages/2170257454/MDE+User+Guide+Home+2.0
+- type: repo
+  name: test2
+  provider: Github
+  url: https://github.com/obseverplus-dd/private-test
+
+tags:
+- tenant:bht2
+- app_name:test2
